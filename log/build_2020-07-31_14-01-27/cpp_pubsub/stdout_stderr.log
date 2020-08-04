@@ -1,0 +1,51 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+In file included from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   64 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publisher main pid: '%d'", getpid(void));    // CHANGE
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher main pid: '%d'", getpid(void));    // CHANGE
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher main pid: '%d'", getpid(void));    // CHANGE
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher main pid: '%d'", getpid(void));    // CHANGE
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/hyunjong/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   64 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publisher main pid: '%d'", getpid(void));    // CHANGE
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   64 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publisher main pid: '%d'", getpid(void));    // CHANGE
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+   64 |   RCLCPP_INFO(this->get_logger(), "Publisher main pid: '%d'", getpid([01;31m[Kvoid[m[K));    // CHANGE
+      |                                                                      [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

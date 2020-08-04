@@ -1,0 +1,41 @@
+-- Found ament_cmake: 0.9.6 (/home/hyunjong/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.0.2 (/home/hyunjong/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.0.1 (/home/hyunjong/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.1 (/home/hyunjong/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tutorial_interfaces: 0.0.0 (/home/hyunjong/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hyunjong/ros2_ws/build/cpp_pubsub
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 75%] Built target listener
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   51 |   rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   51 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:51:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   51 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~[m[K
+      |                                                       [32m[Krcl_publisher_t[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   34 |     [01;31m[Kpublisher_[m[K = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);    // CHANGE
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/hyunjong/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   48 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
